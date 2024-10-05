@@ -1,5 +1,5 @@
 const fs = require('fs');
-""" function countStudents in the file 3-read_file_async.js"""
+
 const countStudents = (dataPath) => new Promise((resolve, reject) => {
   fs.readFile(dataPath, 'utf-8', (err, data) => {
     if (err) {

@@ -1,4 +1,3 @@
-"""  a small HTTP server using the http module:"""
 const http = require('http');
 
 const PORT = 1245;

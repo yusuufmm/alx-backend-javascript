@@ -1,6 +1,5 @@
 const fs = require('fs');
 
-""" function named countStudents. It should accept a path in argument"""
 const countStudents = (dataPath) => {
   if (!fs.existsSync(dataPath)) {
     throw new Error('Cannot load the database');
