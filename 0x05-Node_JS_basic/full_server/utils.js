@@ -1,11 +1,5 @@
 import fs from 'fs';
 
-/**
- * @author Bezaleel Olakunori <https://github.com/B3zaleel>
- * @returns {Promise<{
- *   String: {firstname: String, lastname: String, age: number}[]
- * }>}
- */
 const readDatabase = (dataPath) => new Promise((resolve, reject) => {
   if (!dataPath) {
     reject(new Error('Cannot load the database'));

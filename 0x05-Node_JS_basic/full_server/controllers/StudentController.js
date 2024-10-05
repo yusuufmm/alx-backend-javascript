@@ -1,8 +1,5 @@
 import readDatabase from '../utils';
 
-/**
- * The list of supported majors.
- */
 const VALID_MAJORS = ['CS', 'SWE'];
 
 
